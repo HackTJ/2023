@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+if [ "$1" == "event" ]; then
+  sed "s|base: ''|base: '/2022'|" svelte.config.js > svelte.config.$$.js && mv svelte.config.$$.js svelte.config.js
+  sed "s|<title>HackTJ</title>|<title>HackTJ 9.0</title>|" src/app.html > src/app.$$.html && mv src/app.$$.html src/app.html
+
+  rm -f static/CNAME
+  git remote set-url origin git@github.com:HackTJ/2022.git
+elif [ "$1" == "homepage" ]; then
+  sed "s|base: '/2022'|base: ''|" svelte.config.js > svelte.config.$$.js && mv svelte.config.$$.js svelte.config.js
+  sed "s|<title>HackTJ 9.0</title>|<title>HackTJ</title>|" src/app.html > src/app.$$.html && mv src/app.$$.html src/app.html
+
+  cp CNAME.homepage static/CNAME
+  git remote set-url origin git@github.com:HackTJ/hacktj.github.io.git
+else
+  echo "Invalid argument"
+  exit 1
+fi

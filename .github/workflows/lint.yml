@@ -1,0 +1,25 @@
+name: lint
+
+on:
+  push:
+    branches-ignore: gh-pages
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: pnpm/action-setup@v2.2.1
+        with:
+          version: 6.32.2
+
+      - name: install
+        run: pnpm install --frozen-lockfile
+
+      - name: svelte-check
+        run: pnpm run check
+
+      - name: lint
+        run: pnpm run lint

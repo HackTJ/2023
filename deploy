@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+BLUE=$(printf '\033[36m')
+NORMAL=$(printf '\033[m')
+
+# export NODE_DEBUG=gh-pages
+timestamp=$(pnpm node -e "console.log(new Date())")
+gh_pages_args="--dist build --dotfiles --message \"Update $timestamp\""
+
+log_and_run_cmd () {
+  echo -e "+ ${BLUE}$*${NORMAL}" && eval "$@"
+  echo
+}
+
+deploy_event () {
+  log_and_run_cmd pnpm run switch event
+  log_and_run_cmd pnpm run build
+  log_and_run_cmd gh-pages "$gh_pages_args"
+}
+
+deploy_homepage () {
+  log_and_run_cmd pnpm run switch homepage
+  log_and_run_cmd pnpm run build
+  log_and_run_cmd gh-pages --branch main "$gh_pages_args"
+}
+
+if [ "$1" == "event" ]; then
+  deploy_event
+elif [ "$1" == "homepage" ]; then
+  deploy_homepage
+elif [ "$1" == "all" ]; then
+  deploy_event
+  deploy_homepage
+else
+  echo "Invalid argument"
+  exit 1
+fi
+
+pnpm run switch event
