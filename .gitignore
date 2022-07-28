@@ -19,3 +19,4 @@ yarn.lock
 .turbo
 .vercel
 .test-tmp
+.idea/
