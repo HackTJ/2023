@@ -66,6 +66,11 @@ const sponsors = {
 			src: `${base}/sponsorlogos/echo3d.png`,
 			alt: 'echo3D Logo',
 			href: 'https://www.echo3d.co/'
+		},
+		{
+			src: `${base}/sponsorlogos/jetbrains.png`,
+			alt: 'JetBrains Logo',
+			href: 'https://www.jetbrains.com/'
 		}
 	],
 	partners: [
