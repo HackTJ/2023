@@ -58,10 +58,10 @@
 			<div class="text-white font-bold text-6xl md:text-8xl">
 				HackTJ
 				<!-- TODO: `Overpass Mono`: -->
-				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">9.0</sup>
+				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">10.0</sup>
 			</div>
 			<h3 class="text-white font-medium text-xl md:text-2xl w-3/4">
-				<span class="text-theme-100 font-bold">April 16-17, TJHSST</span>
+				<span class="text-theme-100 font-bold">March 4-5, TJHSST</span>
 				<br />
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
@@ -160,7 +160,7 @@
 		<h3 class="mt-2 text-xl md:text-2xl font-bold text-blueberry-200">
 			Interested in sponsoring? Check out our <a
 				class="underline text-theme-100"
-				href="{base}/sponsorship9.0.pdf">9.0 sponsorship packet</a
+				href="{base}/sponsorship10.0.pdf">10.0 sponsorship packet</a
 			>
 			or email us at
 			<a class="underline text-theme-100" href="mailto:sponsor@hacktj.org">sponsor@hacktj.org</a> if
