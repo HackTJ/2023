@@ -201,11 +201,11 @@
 		<div class="w-full lg:w-2/3">
 			<h1 class="text-5xl md:text-7xl font-black text-white">Location</h1>
 			<h3 class="text-xl font-black text-white mt-3">
-				Thomas Jefferson High School for Science and Technology
+				Cvent HQ
 			</h3>
-			<h3 class="font-medium text-white mt-1">6560 Braddock Rd, Alexandria, VA 22312</h3>
+			<h3 class="font-medium text-white mt-1">1765 Greensboro Station Pl 7th Floor, McLean, VA 22102</h3>
 			<a
-				href="https://goo.gl/maps/oc6ZQHk2VRGm5sjM7"
+				href="https://goo.gl/maps/L23EwHCCucy7SjKf7"
 				target="_blank"
 				rel="noopener noreferred"
 				class="block mt-4 text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl"

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	export let zoom = 18;
-	export let latlng = { lat: 38.8184178, lng: -77.170153 }; // TJHSST Location
+	export let latlng = { lat: 38.92208058473404, lng: -77.23336741553179 }; // Cvent Location
 
 	// TODO: Styling Map
 	onMount(async () => {
