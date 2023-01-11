@@ -1,8 +1,8 @@
-# HackTJ 9.0
+# HackTJ 10.0
 
 [![lint](https://github.com/HackTJ/2023/workflows/lint/badge.svg?event=push)](https://github.com/HackTJ/2023/actions?query=workflow%3Alint)
 
-The website for HackTJ 9.0.
+The website for HackTJ 10.0.
 
 ## Setup
 

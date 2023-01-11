@@ -65,7 +65,7 @@
 				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">10.0</sup>
 			</div>
 			<h3 class="text-white font-medium text-xl md:text-2xl w-3/4">
-				<span class="text-theme-100 font-bold">March 4-5, Cvent HQ</span>
+				<span class="text-theme-100 font-bold">March 4-5, Cvent</span>
 				<br />
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
