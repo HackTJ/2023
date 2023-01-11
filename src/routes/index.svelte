@@ -17,7 +17,7 @@
 		{ text: 'Sponsors', href: '#sponsors' },
 		{ text: 'Team', href: '#team' },
 		{ text: 'Location', href: '#location' },
-		{ text: 'FAQ', href: `${base}/faq`, button: { class: 'bg-theme-100 hover:bg-theme-200' } },
+		{ text: 'FAQ', href: `${base}/faq`, button: { class: 'bg-lightyellow-100 hover:bg-lightyellow-200' } },
 		{
 			text: 'Schedule',
 			href: `${base}/schedule`,
@@ -65,15 +65,15 @@
 				<br />
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
-			<div class="inline-block mt-3 w-48 space-x-2">
+			<div class="inline-block mt-3 w-2/3 space-x-2 space-y-2">
 				<!-- <a
 					href="{base}/register"
-					class="block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl"
+					class="inline-block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl w-2/5"
 					>Register</a
 				> -->
 				<a
 					href="{base}/schedule"
-					class="block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl"
+					class="inline-block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl w-2/5"
 					>Schedule</a
 				>
 			</div>
@@ -124,7 +124,7 @@
 	<div class="flex flex-col md:flex-row mt-6 space-y-3 md:space-y-0 space-x-0 md:space-x-3">
 		<a
 			href="{base}/faq"
-			class="block text-center py-3 bg-theme-100 text-blueberry-800 text-xl font-bold rounded-2xl px-8 hover:bg-theme-200"
+			class="block text-center py-3 bg-lightyellow-100 hover:bg-lightyellow-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 			>FAQ</a
 		>
 		<a
@@ -159,11 +159,11 @@
 		<h1 class="text-4xl md:text-6xl font-black text-white">Sponsors</h1>
 		<h3 class="mt-2 text-xl md:text-2xl font-bold text-blueberry-200">
 			Interested in sponsoring? Check out our <a
-				class="underline text-theme-100"
+				class="underline text-theme-100 hover:text-theme-200"
 				href="{base}/sponsorship10.0.pdf">10.0 sponsorship packet</a
 			>
 			or email us at
-			<a class="underline text-theme-100" href="mailto:sponsor@hacktj.org">sponsor@hacktj.org</a> if
+			<a class="underline text-theme-100 hover:text-theme-200" href="mailto:sponsor@hacktj.org">sponsor@hacktj.org</a> if
 			you're interested or have any questions!
 		</h3>
 	</div>

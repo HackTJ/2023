@@ -10,7 +10,7 @@ module.exports = {
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
-				theme: {
+				lightyellow: {
 					50: '#fee2a1',
 					100: '#fed049',
 					200: '#d5af3d',

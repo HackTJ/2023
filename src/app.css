@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .text-theme-100 {
+        background-image: linear-gradient(90deg, rgba(239, 68, 68, 1) 0%, rgba(249, 115, 22, 1) 10%, rgba(234, 179, 8, 1) 20%, rgba(132, 204, 22, 1) 30%, rgba(34, 197, 94, 1) 40%, rgba(20, 184, 166, 1) 50%, rgba(6, 182, 212, 1) 60%, rgba(59, 130, 246, 1) 70%, rgba(99, 102, 241, 1) 80%, rgba(217, 70, 239, 1) 90%, rgba(236, 72, 153, 1) 100%) !important;
+        background-clip: text !important;
+        background-size: 100% !important;
+
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+
+
+    .text-theme-200 {
+        background-image: linear-gradient(90deg, rgba(236, 72, 153, 1) 0%, rgba(217, 70, 239, 1) 10%, rgba(99, 102, 241, 1) 20%, rgba(59, 130, 246, 1) 30%, rgba(6, 182, 212, 1) 40%, rgba(20, 184, 166, 1) 50%, rgba(34, 197, 94, 1) 60%, rgba(132, 204, 22, 1) 70%, rgba(234, 179, 8, 1) 80%, rgba(249, 115, 22, 1) 90%, rgba(239, 68, 68, 1) 100%) !important;
+        background-clip: text !important;
+        background-size: 100% !important;
+
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+
+    .bg-theme-100 {
+        /*background-image: linear-gradient(90deg, rgba(239, 68, 68, 1) 0%, rgba(249, 115, 22, 1) 10%, rgba(234, 179, 8, 1) 20%, rgba(132, 204, 22, 1) 30%, rgba(34, 197, 94, 1) 40%, rgba(20, 184, 166, 1) 50%, rgba(6, 182, 212, 1) 60%, rgba(59, 130, 246, 1) 70%, rgba(99, 102, 241, 1) 80%, rgba(217, 70, 239, 1) 90%, rgba(236, 72, 153, 1) 100%) !important;*/
+        background-image: linear-gradient(90deg, rgba(252,165,165,1) 0%, rgba(254,240,138,1) 25%, rgba(134,239,172,1) 50%, rgba(125,211,252,1) 75%, rgba(240,171,252,1) 100%) !important;
+    }
+
+    .bg-theme-100.about-me-conic-color {
+        background-image: radial-gradient(ellipse, rgba(252,165,165,1) 0%, rgba(254,240,138,1) 35%, rgba(134,239,172,1) 60%, rgba(125,211,252,1) 85%, rgba(240,171,252,1) 100%) !important;
+    }
+
+    .bg-theme-200 {
+        /*background-image: linear-gradient(90deg, rgba(236, 72, 153, 1) 0%, rgba(217, 70, 239, 1) 10%, rgba(99, 102, 241, 1) 20%, rgba(59, 130, 246, 1) 30%, rgba(6, 182, 212, 1) 40%, rgba(20, 184, 166, 1) 50%, rgba(34, 197, 94, 1) 60%, rgba(132, 204, 22, 1) 70%, rgba(234, 179, 8, 1) 80%, rgba(249, 115, 22, 1) 90%, rgba(239, 68, 68, 1) 100%) !important;*/
+        background-image: linear-gradient(90deg, rgba(240,171,252,1) 0%, rgba(125,211,252,1) 25%, rgba(134,239,172,1) 50%, rgba(254,240,138,1) 75%, rgba(252,165,165,1) 100%) !important;
+    }
+
+    .bg-theme-200.about-me-conic-color {
+        /*background-image: linear-gradient(90deg, rgba(236, 72, 153, 1) 0%, rgba(217, 70, 239, 1) 10%, rgba(99, 102, 241, 1) 20%, rgba(59, 130, 246, 1) 30%, rgba(6, 182, 212, 1) 40%, rgba(20, 184, 166, 1) 50%, rgba(34, 197, 94, 1) 60%, rgba(132, 204, 22, 1) 70%, rgba(234, 179, 8, 1) 80%, rgba(249, 115, 22, 1) 90%, rgba(239, 68, 68, 1) 100%) !important;*/
+        background-image: radial-gradient(ellipse, rgba(240,171,252,1) 0%, rgba(125,211,252,1) 35%, rgba(134,239,172,1) 60%, rgba(254,240,138,1) 85%, rgba(252,165,165,1) 100%) !important;
+    }
+}

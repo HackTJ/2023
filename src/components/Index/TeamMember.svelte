@@ -24,7 +24,7 @@
 		<h4 class="text font-medium font-mono">{name}</h4>
 		<button
 			on:click={openAboutInfo}
-			class="flex text-center items-center justify-center h-12 w-12 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-2xl font-bold rounded-2xl"
+			class="about-me-conic-color flex text-center items-center justify-center h-12 w-12 bg-blueberry-200 hover:bg-blueberry-300 text-blueberry-800 text-2xl font-bold rounded-2xl"
 			>+</button
 		>
 	</div>
