@@ -17,7 +17,11 @@
 		{ text: 'Sponsors', href: '#sponsors' },
 		{ text: 'Team', href: '#team' },
 		{ text: 'Location', href: '#location' },
-		{ text: 'FAQ', href: `${base}/faq`, button: { class: 'bg-lightyellow-100 hover:bg-lightyellow-200' } },
+		{
+			text: 'FAQ',
+			href: `${base}/faq`,
+			button: { class: 'bg-lightyellow-100 hover:bg-lightyellow-200' }
+		},
 		{
 			text: 'Schedule',
 			href: `${base}/schedule`,
@@ -61,7 +65,7 @@
 				<sup class="text-3xl md:text-4xl font-mono align-super text-theme-100">10.0</sup>
 			</div>
 			<h3 class="text-white font-medium text-xl md:text-2xl w-3/4">
-				<span class="text-theme-100 font-bold">March 4-5, Cvent</span>
+				<span class="text-theme-100 font-bold">March 4-5, Cvent HQ</span>
 				<br />
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
@@ -163,8 +167,9 @@
 				href="{base}/sponsorship10.0.pdf">10.0 sponsorship packet</a
 			>
 			or email us at
-			<a class="underline text-theme-100 hover:text-theme-200" href="mailto:sponsor@hacktj.org">sponsor@hacktj.org</a> if
-			you're interested or have any questions!
+			<a class="underline text-theme-100 hover:text-theme-200" href="mailto:sponsor@hacktj.org"
+				>sponsor@hacktj.org</a
+			> if you're interested or have any questions!
 		</h3>
 	</div>
 	{#each sponsorData as { bg, cards, title }}
@@ -200,10 +205,10 @@
 	>
 		<div class="w-full lg:w-2/3">
 			<h1 class="text-5xl md:text-7xl font-black text-white">Location</h1>
-			<h3 class="text-xl font-black text-white mt-3">
-				Cvent HQ
+			<h3 class="text-xl font-black text-white mt-3">Cvent HQ</h3>
+			<h3 class="font-medium text-white mt-1">
+				1765 Greensboro Station Pl 7th Floor, McLean, VA 22102
 			</h3>
-			<h3 class="font-medium text-white mt-1">1765 Greensboro Station Pl 7th Floor, McLean, VA 22102</h3>
 			<a
 				href="https://goo.gl/maps/L23EwHCCucy7SjKf7"
 				target="_blank"
