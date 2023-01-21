@@ -19,7 +19,7 @@ export default [
 	},
 	{
 		question: 'When is HackTJ?',
-		answer: 'HackTJ will start on Saturday, April 16 and run until Sunday, April 17.'
+		answer: 'HackTJ will start on Saturday, March 4 and run until Sunday, March 5.'
 	},
 	{
 		question: 'Who can attend?',
@@ -59,6 +59,6 @@ export default [
 	{
 		question: 'How are ticket decisions made?',
 		answer:
-			'Tickets decisisons are made based on a variety of factors, including the registration time. Sign up quickly to increase the chance that you are given a HackTJ 9.0 ticket!'
+			'Tickets decisions are made based on a variety of factors, including the registration time. Sign up quickly to increase the chance that you are given a HackTJ 10.0 ticket!'
 	}
 ];

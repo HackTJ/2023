@@ -12,5 +12,5 @@
 
 <p>
 	Major League Hacking and some of our partners also host their own Sponsored Prizes, which you can
-	explore when the 9.0 Devpost goes live.
+	explore when the 10.0 Devpost goes live.
 </p>
