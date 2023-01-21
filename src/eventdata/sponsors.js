@@ -10,6 +10,11 @@ const sponsors = {
 			src: `${base}/sponsorlogos/eastbanc.png`,
 			alt: 'EastBanc Technologies Logo',
 			href: 'https://eastbanctech.com/'
+		},
+		{
+			src: `${base}/sponsorlogos/roam.png`,
+			alt: 'Roam Logo',
+			href: 'https://ro.am/'
 		}
 	],
 	silver: [
@@ -81,6 +86,7 @@ const sponsors = {
 		}
 	]
 };
+
 
 const goldTierData = {
 	title: 'GOLD TIER',

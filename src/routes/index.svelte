@@ -164,7 +164,8 @@
 		<h3 class="mt-2 text-xl md:text-2xl font-bold text-blueberry-200">
 			Interested in sponsoring? Check out our <a
 				class="underline text-theme-100 hover:text-theme-200"
-				href="{base}/sponsorship10.0.pdf">10.0 sponsorship packet</a
+				href="{base}/sponsorship10.0.pdf"
+				target="_blank">10.0 sponsorship packet</a
 			>
 			or email us at
 			<a class="underline text-theme-100 hover:text-theme-200" href="mailto:sponsor@hacktj.org"
