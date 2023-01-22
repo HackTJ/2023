@@ -5,16 +5,18 @@
 import { base } from '$app/paths';
 
 const sponsors = {
+	platinum: [
+		{
+			src: `${base}/sponsorlogos/roam.png`,
+			alt: 'Roam Logo',
+			href: 'https://ro.am/'
+		}
+	],
 	gold: [
 		{
 			src: `${base}/sponsorlogos/eastbanc.png`,
 			alt: 'EastBanc Technologies Logo',
 			href: 'https://eastbanctech.com/'
-		},
-		{
-			src: `${base}/sponsorlogos/roam.png`,
-			alt: 'Roam Logo',
-			href: 'https://ro.am/'
 		}
 	],
 	silver: [
@@ -87,7 +89,11 @@ const sponsors = {
 	]
 };
 
-
+const platinumTierData = {
+	title: 'PLATINUM TIER',
+	bg: 'bg-[#C9D4E5]',
+	cards: sponsors.platinum
+}
 const goldTierData = {
 	title: 'GOLD TIER',
 	bg: 'bg-[#D6B570]',
@@ -95,7 +101,7 @@ const goldTierData = {
 };
 const silverTierData = {
 	title: 'SILVER TIER',
-	bg: 'bg-[#C9D4E5]',
+	bg: 'bg-zinc-400',
 	cards: sponsors.silver
 };
 const bronzeTierData = {
@@ -113,6 +119,6 @@ const partnershipData = {
 	bg: 'bg-spruce-200',
 	cards: sponsors.partners
 };
-const sponsorData = [goldTierData, silverTierData, bronzeTierData, prizeTierData, partnershipData];
+const sponsorData = [platinumTierData, goldTierData, silverTierData, bronzeTierData, prizeTierData, partnershipData];
 
 export default sponsorData;
