@@ -48,11 +48,6 @@ const sponsors = {
 			href: 'https://www.cvent.com/'
 		},
 		{
-			src: `${base}/sponsorlogos/replit.png`,
-			alt: 'Replit Logo',
-			href: 'https://replit.com/'
-		},
-		{
 			src: `${base}/sponsorlogos/daggeranalytics.png`,
 			alt: 'Dagger Analytics Logo',
 			href: 'https://www.daggeranalytics.com/'
@@ -66,6 +61,11 @@ const sponsors = {
 			src: `${base}/sponsorlogos/ultrapress.png`,
 			alt: 'UltraPress Logo',
 			href: 'https://ultrapress.com/'
+		},
+		{
+			src: `${base}/sponsorlogos/mapbox.png`,
+			alt: 'Mapbox Logo',
+			href: 'https://www.mapbox.com/'
 		}
 	],
 	prize: [
@@ -78,7 +78,12 @@ const sponsors = {
 			src: `${base}/sponsorlogos/jetbrains.png`,
 			alt: 'JetBrains Logo',
 			href: 'https://www.jetbrains.com/'
-		}
+		},
+		{
+			src: `${base}/sponsorlogos/replit.png`,
+			alt: 'Replit Logo',
+			href: 'https://replit.com/'
+		},
 	],
 	partners: [
 		{
