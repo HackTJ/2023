@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-c9a337a2.js",
+    "file": "_app/immutable/start-209c0ad5.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,6 +12,7 @@
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/faq.svelte",
       "src/routes/index.svelte",
+      "src/routes/register.svelte",
       "src/routes/resources.svelte",
       "src/routes/schedule.svelte"
     ]
@@ -50,7 +51,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-9ac91ddf.js",
+    "file": "_app/immutable/pages/index.svelte-11ec5ad2.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -61,6 +62,18 @@
     ],
     "css": [
       "_app/immutable/assets/index-dadff33c.css"
+    ]
+  },
+  "src/routes/register.svelte": {
+    "file": "_app/immutable/pages/register.svelte-32733400.js",
+    "src": "src/routes/register.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-5d6d97c1.js",
+      "_paths-b9644fda.js",
+      "_home-4a598af4.js",
+      "_Footer-65e1c386.js"
     ]
   },
   "src/routes/resources.svelte": {
@@ -105,12 +118,12 @@
       "_index-5d6d97c1.js"
     ]
   },
-  "src/routes\\index.css": {
-    "file": "_app/immutable/assets/index-dadff33c.css",
-    "src": "src/routes\\index.css"
-  },
   "src/routes\\__layout.css": {
     "file": "_app/immutable/assets/__layout-1b5a8b4f.css",
     "src": "src/routes\\__layout.css"
+  },
+  "src/routes\\index.css": {
+    "file": "_app/immutable/assets/index-dadff33c.css",
+    "src": "src/routes\\index.css"
   }
 }
