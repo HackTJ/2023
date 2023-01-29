@@ -16,12 +16,13 @@
 			<!-- Registration will open on January 28, 2023 at 7:00 pm EST and will close on February 11, 2023 at 11:59
 			pm EST. All attendees must adhere to the <a -->
 			Registration opened on January 28, 2023 at 7:00 pm EST and will close on February 11, 2023 at 11:59
-			pm EST. All attendees must adhere to the <a
+			pm EST. All attendees must adhere to the
+			<a
 				class="text-theme-100 hover:text-theme-200 underline"
 				href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
 				target="_blank"
 				rel="noreferrer"><b>MLH Code of Conduct</b></a
-			>.<br><br>
+			>.<br /><br />
 		</p>
 		<div
 			class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 space-x-0 lg:space-x-12 mt-4 h-full grow"
@@ -35,7 +36,8 @@
 					Participants must be current high school students. Computer science and engineering
 					experience is not necessary, as we&#39;ll have workshops and mentors so you can learn.
 					Please note that registering alone does not guarantee you will receive a ticket. Admission
-					decisions will be made based on a variety of factors including the date/time you register.<br><br>
+					decisions will be made based on a variety of factors including the date/time you register.<br
+					/><br />
 					Mentor, Judge, Volunteer, and Photographer Registration is coming soon!
 				</p>
 			</RegistrationColumn>

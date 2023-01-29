@@ -2,7 +2,7 @@
 	export let title;
 	export let link;
 	export let linkText;
-	export let disabled;
+	export let disabled = false;
 </script>
 
 <div class="flex flex-col flex-1 justify-between">
@@ -13,8 +13,9 @@
 	{#if disabled}
 		<div
 			class="block mt-4 text-center py-3 px-4 bg-gray-400 text-blueberry-800 font-bold rounded-2xl"
-			>Not Available Yet!</div
 		>
+			Not Available Yet!
+		</div>
 	{:else}
 		<a
 			href={link}

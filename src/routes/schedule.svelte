@@ -18,7 +18,7 @@
 		const max = Math.max(...uniqueHours);
 
 		for (let h = min; h <= max; h++) {
-			const matchedHours = matchedDate.filter(({ time }) => time.hour() == h);
+			const matchedHours = matchedDate.filter(({ time }) => time.hour() === h);
 			// Get the time for the column label
 			let columnTime = matchedDate[0].time.clone().set('hour', h);
 			// Set the data

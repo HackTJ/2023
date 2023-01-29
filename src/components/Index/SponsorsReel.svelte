@@ -7,13 +7,17 @@
 
 	// Randomize order of sponsors in tier
 	$: {
-		let currentIndex = cardsData.length, randomIndex;
+		let currentIndex = cardsData.length,
+			randomIndex;
 
 		while (currentIndex !== 0) {
 			randomIndex = Math.floor(Math.random() * currentIndex);
 			currentIndex--;
 
-			[cardsData[currentIndex], cardsData[randomIndex]] = [cardsData[randomIndex], cardsData[currentIndex]];
+			[cardsData[currentIndex], cardsData[randomIndex]] = [
+				cardsData[randomIndex],
+				cardsData[currentIndex]
+			];
 		}
 	}
 </script>

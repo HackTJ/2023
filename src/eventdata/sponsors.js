@@ -83,7 +83,7 @@ const sponsors = {
 			src: `${base}/sponsorlogos/replit.png`,
 			alt: 'Replit Logo',
 			href: 'https://replit.com/'
-		},
+		}
 	],
 	partners: [
 		{
@@ -98,7 +98,7 @@ const platinumTierData = {
 	title: 'PLATINUM TIER',
 	bg: 'bg-[#C9D4E5]',
 	cards: sponsors.platinum
-}
+};
 const goldTierData = {
 	title: 'GOLD TIER',
 	bg: 'bg-[#D6B570]',
@@ -124,6 +124,13 @@ const partnershipData = {
 	bg: 'bg-spruce-200',
 	cards: sponsors.partners
 };
-const sponsorData = [platinumTierData, goldTierData, silverTierData, bronzeTierData, prizeTierData, partnershipData];
+const sponsorData = [
+	platinumTierData,
+	goldTierData,
+	silverTierData,
+	bronzeTierData,
+	prizeTierData,
+	partnershipData
+];
 
 export default sponsorData;

@@ -30,7 +30,7 @@ git push
 - `pnpm run check`
 - `pnpm run switch event`: switch to the event repository (configures the project so that builds are for `/2023`)
 - `pnpm run switch homepage`: switch to the homepage repository (configures the project so that builds are for `/`)
-- `pnpm run dev`: starts a development server on [port 3000](localhost:3000) and watches files for changes, compiling them on the fly
+- `pnpm run dev`: starts a development server on [port 3000](http://localhost:3000) and watches files for changes, compiling them on the fly
 - `pnpm run build`: compiles all files to the `build/` directory but doesn't watch for changes or start a server
 - `pnpm run preview`: starts a static server using the files in `build/`
 - `pnpm run deploy event`: pushes to the `gh-pages` branch of this repository and deploys the site to <https://hacktj.org/2023>
