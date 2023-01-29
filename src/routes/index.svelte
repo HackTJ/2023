@@ -69,15 +69,15 @@
 				<br />
 				Build the next greatest thing - oh, and bring your friends along too.
 			</h3>
-			<div class="inline-block mt-3 w-2/3 space-x-2 space-y-2">
-				<!-- <a
+			<div class="flex flex-col md:flex-row mt-6 space-y-3 md:space-y-0 space-x-0 md:space-x-3">
+				<a
 					href="{base}/register"
-					class="inline-block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl w-2/5"
-					>Register</a
-				> -->
+					class="block text-center py-3 bg-theme-100 hover:bg-theme-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
+					>&emsp;Register&emsp;</a
+				>
 				<a
 					href="{base}/schedule"
-					class="inline-block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl w-2/5"
+					class="block text-center py-3 bg-spruce-100 hover:bg-spruce-200 text-blueberry-800 text-xl font-bold rounded-2xl px-8"
 					>Schedule</a
 				>
 			</div>
