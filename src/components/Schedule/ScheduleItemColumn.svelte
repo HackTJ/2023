@@ -15,6 +15,7 @@
 	}
 </script>
 
+{#if cardData.length}
 <div class="block max-w-sm shrink-0">
 	<div class="flex flex-row items-center">
 		<div class="justify-center text-center shrink-0 {!cardData.length ? 'opacity-50' : ''}">
@@ -25,7 +26,6 @@
 			</p>
 			<button
 				on:click={onButtonClick}
-				disabled={!cardData.length}
 				class="rounded-full text-2xl font-bold h-8 w-8 flex items-center m-auto mt-1 text-black {active
 					? 'bg-theme-100 hover:bg-theme-200'
 					: 'bg-spruce-200 hover:bg-spruce-300'}"
@@ -43,9 +43,10 @@
 	</div>
 	{#if cardData && columnOpen}
 		<div class="flex flex-col mt-6 text-black space-y-4">
-			{#each cardData as { time, title, joinLink }}
-				<ScheduleItemCard {title} {active} {time} {joinLink} />
+			{#each cardData as { title, time, end }}
+				<ScheduleItemCard {title} {active} {time} {end} />
 			{/each}
 		</div>
 	{/if}
 </div>
+{/if}
