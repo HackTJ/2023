@@ -19,4 +19,4 @@
 	});
 </script>
 
-<div class="w-full h-[400px] rounded-2xl" id="map-canvas"></div>
+<div class="w-full h-[400px] rounded-2xl" id="map-canvas" />

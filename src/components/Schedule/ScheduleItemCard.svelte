@@ -7,7 +7,7 @@
 	export let time = dayjs();
 	export let end = dayjs();
 
-	$: timeStr = end ? time.format('h:mm a') + " - " + end.format('h:mm a') : time.format('h:mm a');
+	$: timeStr = end ? time.format('h:mm a') + ' - ' + end.format('h:mm a') : time.format('h:mm a');
 </script>
 
 <div
