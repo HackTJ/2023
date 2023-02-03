@@ -24,7 +24,7 @@ export default [
 	{
 		question: 'Who can attend?',
 		answer:
-			"HackTJ is open to any and all current high school students. If you're not a high school student but would like to attend, consider coming as a judge, mentor, or volunteer."
+			"HackTJ is open to all current high school students attending Fairfax County Public Schools. If you're not a high school student but would like to attend, consider coming as a judge, mentor, or volunteer."
 	},
 	{
 		question: 'Is there any cost?',

@@ -33,11 +33,11 @@
 				linkText="Participant Registration"
 			>
 				<p>
-					Participants must be current high school students. Computer science and engineering
-					experience is not necessary, as we&#39;ll have workshops and mentors so you can learn.
-					Please note that registering alone does not guarantee you will receive a ticket. Admission
-					decisions will be made based on a variety of factors including the date/time you register.<br
-					/><br />
+					Participants must be current high school students attending Fairfax County Public Schools.
+					Computer science and engineering experience is not necessary, as we&#39;ll have workshops
+					and mentors so you can learn. Please note that registering alone does not guarantee you
+					will receive a ticket. Admission decisions will be made based on a variety of factors
+					including the date/time you register.<br /><br />
 					Mentor, Judge, Volunteer, and Photographer Registration is coming soon!
 				</p>
 			</RegistrationColumn>
