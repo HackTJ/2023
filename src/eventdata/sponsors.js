@@ -66,6 +66,11 @@ const sponsors = {
 			src: `${base}/sponsorlogos/mapbox.png`,
 			alt: 'Mapbox Logo',
 			href: 'https://www.mapbox.com/'
+		},
+		{
+			src: `${base}/sponsorlogos/yext.png`,
+			alt: 'Yext Logo',
+			href: 'https://www.yext.com/'
 		}
 	],
 	prize: [
