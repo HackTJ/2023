@@ -55,7 +55,7 @@
 				<br />
 				<p>
 					Mentors help students if they have any technical questions, and don't have to be present
-					online the entire time. Computer science and engineering experience is required.
+					the entire time. Computer science and engineering experience is required.
 				</p>
 			</RegistrationColumn>
 			<RegistrationColumn
