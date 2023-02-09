@@ -12,13 +12,7 @@ const sponsors = {
 			href: 'https://ro.am/'
 		}
 	],
-	gold: [
-		{
-			src: `${base}/sponsorlogos/eastbanc.png`,
-			alt: 'EastBanc Technologies Logo',
-			href: 'https://eastbanctech.com/'
-		}
-	],
+	gold: [],
 	silver: [
 		{
 			src: `${base}/sponsorlogos/janestreet.png`,
