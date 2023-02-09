@@ -60,9 +60,8 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Photographer"
-				link="https://docs.google.com/forms/d/e/1FAIpQLSd-Q9vTl-xkA2DhxWSOO2GcBXTD9CcCr-juxe27faky3gLHdw/viewform?usp=sf_link"
-				linkText="Photographer"
-				disabled
+				link="https://forms.gle/KECuXisAGB9JHjts8"
+				linkText="Photographer Registration"
 			>
 				<p>
 					Photographers are only needed for 2 hours at a time (aside from the 2.5 hr shift on
