@@ -43,9 +43,8 @@
 			</RegistrationColumn>
 			<RegistrationColumn
 				title="Mentor/Judge/Volunteer"
-				link="https://forms.gle/R5cgvRmeKSaVhZNY9"
+				link="https://forms.gle/xWHgwG6qZ4eUFtRt8"
 				linkText="Mentor/Judge/Volunteer Registration"
-				disabled
 			>
 				<p>
 					Judges must be present during the entire judging process (9:00 a.m. to 11:00 a.m. on
