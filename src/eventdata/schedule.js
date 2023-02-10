@@ -45,6 +45,12 @@ const scheduleItems = [
 	},
 	// // Day 2
 	{
+		title: 'Breakfast',
+		time: dayjs('3/5/2022 07:00', timeFormat),
+		end: null
+	},
+
+	{
 		title: 'Hacking Ends',
 		time: dayjs('3/5/2022 08:00', timeFormat),
 		end: null
