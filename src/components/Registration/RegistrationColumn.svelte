@@ -3,11 +3,16 @@
 	export let link;
 	export let linkText;
 	export let disabled = false;
+	export let closed = false;
 </script>
 
 <div class="flex flex-col flex-1 justify-between">
 	<div>
-		<h2 class="text-theme-100 text-3xl font-black mb-2">{title}</h2>
+		{#if disabled || closed}
+			<h2 class="text-gray-400 text-3xl font-black mb-2">{title}</h2>
+		{:else}
+			<h2 class="text-theme-100 text-3xl font-black mb-2">{title}</h2>
+		{/if}
 		<slot />
 	</div>
 	{#if disabled}
@@ -15,6 +20,12 @@
 			class="block mt-4 text-center py-3 px-4 bg-gray-400 text-blueberry-800 font-bold rounded-2xl"
 		>
 			Not Available Yet!
+		</div>
+	{:else if closed}
+		<div
+			class="block mt-4 text-center py-3 px-4 bg-gray-400 text-blueberry-800 font-bold rounded-2xl"
+		>
+			Registration is Closed!
 		</div>
 	{:else}
 		<a
