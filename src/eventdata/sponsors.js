@@ -12,7 +12,13 @@ const sponsors = {
 			href: 'https://ro.am/'
 		}
 	],
-	gold: [],
+	gold: [
+		{
+			src: `${base}/sponsorlogos/childrensnational.png`,
+			alt: "Children's National Logo",
+			href: 'https://childrensnational.org/'
+		}
+	],
 	silver: [
 		{
 			src: `${base}/sponsorlogos/janestreet.png`,
