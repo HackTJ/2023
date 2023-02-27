@@ -5,13 +5,11 @@ const scheduleItems = [
 	// Day 1
 	{
 		title: 'Doors Open',
-		time: dayjs('3/4/2023 09:00', timeFormat),
-		end: null
+		time: dayjs('3/4/2023 09:00', timeFormat)
 	},
 	{
 		title: 'Doors Close',
-		time: dayjs('3/4/2023 11:00', timeFormat),
-		end: null
+		time: dayjs('3/4/2023 11:00', timeFormat)
 	},
 	{
 		title: 'Opening Ceremony',
@@ -20,8 +18,7 @@ const scheduleItems = [
 	},
 	{
 		title: 'Hacking Begins',
-		time: dayjs('3/4/2023 11:45', timeFormat),
-		end: null
+		time: dayjs('3/4/2023 11:45', timeFormat)
 	},
 	{
 		title: 'Team Building',
@@ -40,20 +37,17 @@ const scheduleItems = [
 	},
 	{
 		title: 'Submit Project Category',
-		time: dayjs('3/4/2023 23:30', timeFormat),
-		end: null
+		time: dayjs('3/4/2023 23:30', timeFormat)
 	},
 	// // Day 2
 	{
 		title: 'Breakfast',
-		time: dayjs('3/5/2023 07:00', timeFormat),
-		end: null
+		time: dayjs('3/5/2023 07:00', timeFormat)
 	},
 
 	{
 		title: 'Hacking Ends',
-		time: dayjs('3/5/2023 08:00', timeFormat),
-		end: null
+		time: dayjs('3/5/2023 08:00', timeFormat)
 	},
 	{
 		title: 'Judging',

@@ -5,7 +5,7 @@
 	export let active = true;
 	export let title = '';
 	export let time = dayjs();
-	export let end = dayjs();
+	export let end = null;
 
 	$: timeStr = end ? time.format('h:mm a') + ' - ' + end.format('h:mm a') : time.format('h:mm a');
 </script>
@@ -21,6 +21,7 @@
 	/>
 	<div class="z-10">
 		<h2 class="font-black text-3xl">{title}</h2>
+
 		<h2 class="font-medium font-mono text-xl mt-1">{timeStr}</h2>
 	</div>
 </div>
