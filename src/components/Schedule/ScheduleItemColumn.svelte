@@ -6,47 +6,29 @@
 	export let columnTime = dayjs();
 	cardData.sort((a, b) => a.time.unix() - b.time.unix());
 
-	$: active = columnTime.isSame(dayjs(), 'hour');
+	$: isActive = columnTime.isSame(dayjs(), 'hour');
 	$: hour = columnTime.format('h A');
 
 	let columnOpen = true;
-	function onButtonClick() {
-		columnOpen = !columnOpen;
-	}
 </script>
 
 {#if cardData.length}
-	<div class="block max-w-sm shrink-0">
-		<div class="flex flex-row items-center">
+	<div class="block max-w-full flex flex-col xl:flex-row items-center mt-4 space-x-8 min-h-[125px]">
+		<div class="flex flex-row flex-none items-center w-16">
 			<div class="justify-center text-center shrink-0 {!cardData.length ? 'opacity-50' : ''}">
 				<p
-					class="m-auto text-theme-100 text-2xl font-bold {active
-						? 'text-thene'
+					class="m-auto text-2xl font-bold {isActive
+						? 'text-theme-100'
 						: 'text-spruce-200'}"
 				>
 					{hour}
 				</p>
-				<button
-					on:click={onButtonClick}
-					class="rounded-full text-2xl font-bold h-8 w-8 flex items-center m-auto mt-1 text-black {active
-						? 'bg-theme-100 hover:bg-theme-200'
-						: 'bg-spruce-200 hover:bg-spruce-300'}"
-				>
-					<div class="m-auto">{columnOpen && cardData.length ? '-' : '+'}</div>
-				</button>
 			</div>
-			{#if cardData && columnOpen}
-				<div
-					class="w-full ml-8 bg-theme-100 h-3 rounded-full {active
-						? 'bg-theme-100'
-						: 'bg-spruce-200'}"
-				/>
-			{/if}
 		</div>
 		{#if cardData && columnOpen}
-			<div class="flex flex-col mt-6 text-black space-y-4">
+			<div class="flex flex-col lg:flex-row md:items-center w-full mt-6 text-black space-y-8 lg:space-y-0 space-x-0 lg:space-x-8">
 				{#each cardData as { title, time, end }}
-					<ScheduleItemCard {title} {active} {time} {end} />
+					<ScheduleItemCard {title} {isActive} {time} {end} />
 				{/each}
 			</div>
 		{/if}

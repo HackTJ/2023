@@ -2,7 +2,7 @@
 	import Dots from './Dots.svelte';
 	import dayjs from 'dayjs';
 
-	export let active = true;
+	export let isActive = true;
 	export let title = '';
 	export let time = dayjs();
 	export let end = null;
@@ -11,13 +11,13 @@
 </script>
 
 <div
-	class="w-[300px] p-6 h-48 rounded-2xl flex flex-col justify-between items-start relative {active
-		? 'bg-theme-50 text-black'
+	class="w-[91%] md:w-[300px] p-6 h-[125px] rounded-2xl flex items-center flex-row justify-between relative {isActive
+		? 'bg-theme-100 text-black'
 		: 'bg-black text-white'}"
 >
 	<Dots
-		color={active ? '#DAA740' : '#333a70'}
-		class="absolute right-0 bottom-0 scale-125 origin-bottom-right"
+		color={isActive ? '#2D2A40' : '#333a70'}
+		class="absolute right-0 bottom-0 scale-50 origin-bottom-right"
 	/>
 	<div class="z-10">
 		<h2 class="font-black text-3xl">{title}</h2>
