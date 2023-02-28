@@ -58,7 +58,7 @@
 				{/each}
 			</div>
 		</div>
-		<div class="mt-6 text-blueberry-200 p-8 md:p-12">
+		<div class="text-blueberry-200 p-8 md:p-12">
 			{#each hourlyData as { data, columnTime }}
 				<ScheduleItemColumn cardData={data} {columnTime} />
 			{/each}

@@ -8,6 +8,11 @@ const scheduleItems = [
 		time: dayjs('3/4/2023 09:00', timeFormat)
 	},
 	{
+		title: 'Sponsor Fair',
+		time: dayjs('3/4/2023 09:00', timeFormat),
+		end: dayjs('3/4/2023 11:00', timeFormat)
+	},
+	{
 		title: 'Doors Close',
 		time: dayjs('3/4/2023 11:00', timeFormat)
 	},
@@ -29,6 +34,60 @@ const scheduleItems = [
 		title: 'Lunch',
 		time: dayjs('3/4/2023 13:00', timeFormat),
 		end: dayjs('3/4/2023 14:00', timeFormat)
+	},
+	{
+		title: 'Workshop @ RED',
+		subtitle: 'Roam',
+		time: dayjs('3/4/2023 14:00', timeFormat),
+		end: dayjs('3/4/2023 15:00', timeFormat)
+	},
+	{
+		title: 'Workshop @ BLUE',
+		subtitle: 'Program on Mobile App Development',
+		time: dayjs('3/4/2023 14:00', timeFormat),
+		end: dayjs('3/4/2023 15:30', timeFormat)
+	},
+	{
+		title: 'Workshop @ GRAY',
+		subtitle: 'The Inner Workings of the Web',
+		time: dayjs('3/4/2023 14:30', timeFormat),
+		end: dayjs('3/4/2023 15:30', timeFormat)
+	},
+	{
+		title: 'Workshop @ RED',
+		subtitle: 'Powering up your Website with Arduino',
+		time: dayjs('3/4/2023 15:30', timeFormat),
+		end: dayjs('3/4/2023 16:30', timeFormat)
+	},
+	{
+		title: 'Workshop @ GRAY',
+		subtitle: 'Intro to Quantum Computing and Superposition',
+		time: dayjs('3/4/2023 16:00', timeFormat),
+		end: dayjs('3/4/2023 17:00', timeFormat)
+	},
+	{
+		title: 'Workshop @ RED',
+		subtitle: 'Storyboarding App Drafts in XCode',
+		time: dayjs('3/4/2023 17:00', timeFormat),
+		end: dayjs('3/4/2023 18:00', timeFormat)
+	},
+	{
+		title: 'Workshop @ BLUE',
+		subtitle: 'How to Pitch',
+		time: dayjs('3/4/2023 17:00', timeFormat),
+		end: dayjs('3/4/2023 18:00', timeFormat)
+	},
+	{
+		title: 'Workshop @ GRAY',
+		subtitle: 'Pitching Practice',
+		time: dayjs('3/4/2023 17:30', timeFormat),
+		end: dayjs('3/4/2023 18:00', timeFormat)
+	},
+	{
+		title: 'Workshop @ BLUE',
+		subtitle: 'How to Use Design Thinking to make an Impact as a Student',
+		time: dayjs('3/4/2023 18:00', timeFormat),
+		end: dayjs('3/4/2023 18:30', timeFormat)
 	},
 	{
 		title: 'Dinner',

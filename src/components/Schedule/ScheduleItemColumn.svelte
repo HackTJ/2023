@@ -26,9 +26,9 @@
 			</div>
 		</div>
 		{#if cardData && columnOpen}
-			<div class="flex flex-col lg:flex-row md:items-center w-full mt-6 text-black space-y-8 lg:space-y-0 space-x-0 lg:space-x-8">
-				{#each cardData as { title, time, end }}
-					<ScheduleItemCard {title} {isActive} {time} {end} />
+			<div class="flex flex-col lg:flex-row items-center justify-center xl:justify-start w-full mt-6 text-black space-y-8 lg:space-y-0 space-x-0 lg:space-x-8">
+				{#each cardData as { title, subtitle, time, end }}
+					<ScheduleItemCard {title} {isActive} {subtitle} {time} {end} />
 				{/each}
 			</div>
 		{/if}
