@@ -43,11 +43,6 @@ const sponsors = {
 			href: 'https://alarm.com/'
 		},
 		{
-			src: `${base}/sponsorlogos/cvent.png`,
-			alt: 'Cvent Logo',
-			href: 'https://www.cvent.com/'
-		},
-		{
 			src: `${base}/sponsorlogos/daggeranalytics.png`,
 			alt: 'Dagger Analytics Logo',
 			href: 'https://www.daggeranalytics.com/'
@@ -91,6 +86,11 @@ const sponsors = {
 		}
 	],
 	partners: [
+		{
+			src: `${base}/sponsorlogos/cvent.png`,
+			alt: 'Cvent Logo',
+			href: 'https://www.cvent.com/'
+		},
 		{
 			src: `${base}/sponsorlogos/tjpartnership.png`,
 			alt: 'TJ Partnership Fund Logo',
