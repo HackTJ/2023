@@ -1,6 +1,8 @@
 <script>
 	import dayjs from 'dayjs';
 	import ScheduleItemCard from './ScheduleItemCard.svelte';
+	import Modal from 'svelte-simple-modal';
+	import CloseButton from '../Index/CloseButton.svelte';
 
 	export let cardData = [];
 	export let columnTime = dayjs();
@@ -22,13 +24,21 @@
 			</div>
 		</div>
 		{#if cardData && columnOpen}
-			<div
-				class="flex flex-col lg:flex-row items-center justify-center xl:justify-start w-full mt-6 text-black space-y-8 lg:space-y-0 space-x-0 lg:space-x-8"
+			<Modal
+				unstyled={true}
+				classBg="fixed top-0 left-0 w-screen h-screen flex flex-col justify-center bg-blackberry-800/[0.8] z-10"
+				classWindowWrap="relative m-4 max-h-full"
+				classWindow="rounded-2xl bg-theme-100 text-black p-6 md:p-8 max-w-xl max-h-full m-auto relative"
+				closeButton={CloseButton}
 			>
-				{#each cardData as { title, subtitle, time, end }}
-					<ScheduleItemCard {title} {isActive} {subtitle} {time} {end} />
-				{/each}
-			</div>
+				<div
+					class="flex flex-col lg:flex-row items-center justify-center xl:justify-start w-full mt-6 text-black space-y-8 lg:space-y-0 space-x-0 lg:space-x-8"
+				>
+					{#each cardData as { title, subtitle, description, time, end }}
+						<ScheduleItemCard {title} {isActive} {subtitle} {description} {time} {end} />
+					{/each}
+				</div>
+			</Modal>
 		{/if}
 	</div>
 {/if}
