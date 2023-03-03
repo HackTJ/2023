@@ -101,6 +101,14 @@ const scheduleItems = [
 		end: dayjs('3/4/2023 17:00', timeFormat)
 	},
 	{
+		title: 'Workshop @ BLUE',
+		subtitle: 'Resume Building',
+		description:
+			'Join our signature Yext Talk workshop and gain the essential skills to perfect your resume for landing coveted internships in the tech industry and prestigious programs. Our expert instructors will guide you through crafting a compelling resume that showcases your unique strengths and experience, including how to highlight academic achievements, relevant coursework, extracurricular activities, and volunteer work, and insider advice on what tech companies and prestigious programs look for in their interns.<br /><br />Recommended Level: Beginner (little to no experience)',
+		time: dayjs('3/4/2023 16:00', timeFormat),
+		end: dayjs('3/4/2023 17:00', timeFormat)
+	},
+	{
 		title: 'Workshop @ RED',
 		subtitle: 'Storyboarding App Drafts in XCode',
 		description:
