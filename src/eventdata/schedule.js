@@ -66,7 +66,7 @@ const scheduleItems = [
 		description:
 			"Join Children's National Hospital researchers Kevin Cleary and Hadi Fooladi Talari as they cover the relationship mobile app development has to the hospital.",
 		time: dayjs('3/4/2023 14:00', timeFormat),
-		end: dayjs('3/4/2023 15:30', timeFormat)
+		end: dayjs('3/4/2023 14:30', timeFormat)
 	},
 	{
 		title: 'Workshop @ GRAY',
