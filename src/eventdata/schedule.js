@@ -140,6 +140,13 @@ const scheduleItems = [
 		end: dayjs('3/4/2023 18:30', timeFormat)
 	},
 	{
+		title: 'Workshop @ RED',
+		subtitle: 'Game Development',
+		description: 'Join Mr. Arulandu for our traditional game development workshop!',
+		time: dayjs('3/4/2023 18:00', timeFormat),
+		end: dayjs('3/4/2023 18:30', timeFormat)
+	},
+	{
 		title: 'Dinner',
 		description:
 			'Noodles & Co.: Pad Thai, Vegetarian Spaghetti, Meat Spaghetti, Wisconsin Mac & Cheese, Korean Spicy Noodles, Pesto Cavatappi',
